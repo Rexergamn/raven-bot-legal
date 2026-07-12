@@ -1,331 +1,144 @@
 # Privacy Policy - Raven Discord Bot
 
-**Last Updated:** February 8, 2026
+**Last Updated:** July 11, 2026
 **Effective Date:** January 31, 2026
+
+## The Short Version
+
+- The Bot stores your Discord user ID plus the gameplay data its features need: music stats, Int Coins balances, game and tournament history, and your linked Riot account if you link one.
+- It never sees your messages outside of commands, never sees your payment details, and never stores your raw IP address (an optional verification page stores a one-way hash, described below).
+- Nothing is sold or shared with advertisers. Data stays on the operator's own hardware.
+- Ask the operator on Discord and your data will be deleted within 30 days.
 
 ## 1. Introduction
 
-This Privacy Policy describes how Raven ("the Bot," "we," "us," or "our") collects, uses, stores, and protects your personal information when you use the Bot on Discord.
-
-By using the Bot, you agree to the collection and use of information in accordance with this Privacy Policy. If you do not agree with this Privacy Policy, you must not use the Bot.
-
-This Privacy Policy should be read in conjunction with our [Terms of Service](./TOS.md).
-
-## 2. Information We Collect
-
-### 2.1 Automatically Collected Data
-
-When you interact with the Bot, we automatically collect:
-
-**Discord Account Information:**
-- Discord User ID (unique numerical identifier)
-- Discord Username (for display purposes)
-- Discord Server/Guild ID (where the Bot is used)
-- Discord Channel IDs (where commands are used)
-
-**Voice Channel Data:**
-- Voice channel join/leave timestamps
-- Voice session duration
-- Voice channel IDs where music is played
-
-### 2.2 Usage Data
+This policy describes what Raven ("the Bot", "we") collects and why. It goes together with the [Terms of Service](https://raw.githubusercontent.com/Rexergamn/raven-bot-legal/main/TOS.md). By using the Bot you agree to the practices described here.
 
-**Music Playback Statistics:**
-- Songs played (title, artist, URL, source platform)
-- Play count per song
-- User listening history
-- Queue data and preferences
-- Volume settings and playback commands used
-- Timestamps of music activity
+## 2. What We Collect
 
-**Economy System Data:**
-- Int Coins balance (virtual currency)
-- Transaction history (earnings, spending, transfers)
-- Game results (wins, losses, outcomes of casino games)
-- Daily/weekly reward claim timestamps
-- Cooldown and rate limit data
+### 2.1 Discord Basics
 
-**League of Legends Tournament Data:**
-- Riot Games summoner name
-- Riot Games account ID and PUUID
-- Game match IDs and results
-- Tournament registration and participation
-- Team assignments, match history, and bracket placement (including Play-In results)
-- Tournament prize records
-- Payment/entry fee records (processed via Discord)
+Your Discord user ID and username, the server and channel IDs where you use the Bot, and the commands you run. For voice features: which voice channels you join for music and for how long.
 
-**Media Library Requests:**
-- Requested content (movie/TV show titles)
-- Request status (pending, approved, fulfilled)
-- Request timestamps
+### 2.2 Music
 
-**Moderation Actions:**
-- Commands used (for audit purposes)
-- Moderation action logs (if applicable)
+Songs you play (title, source URL), play counts, queue history, and listening statistics.
 
-### 2.3 Data We Do NOT Collect
+### 2.3 Economy and Games
 
-We do **NOT** collect:
-- Message content (except command inputs)
-- Private/direct messages
-- Voice recordings or voice data content
-- Payment information (handled exclusively by Discord)
-- Email addresses or phone numbers
-- Real names or physical addresses
-- IP addresses or device information
+Int Coins balances and transaction history, casino game results, shop purchases, daily quest and Wordle progress, dungeon runs (classes, floors, outcomes), trading-card collections and battle results, and clan membership and contributions. Balancing analytics (aggregate coin-flow and game statistics) are derived from this data.
 
-## 3. How We Use Your Information
+### 2.4 Invites and Server Growth
 
-### 3.1 Primary Uses
+Which invite link you joined through and who created it (used for invite rewards and join screening), and records of Disboard `/bump` usage (who bumped, when) for bump rewards.
 
-We use collected data to:
+### 2.5 League of Legends
 
-**Provide Bot Functionality:**
-- Execute commands and provide requested features
-- Play music in voice channels
-- Manage virtual economy and casino games
-- Organize and run League of Legends tournaments
-- Process media library requests
-- Generate statistics and leaderboards
+If you link a Riot account: your Riot ID, PUUID and summoner ID, region, account level, and current and historical rank. From these we derive and store an estimated skill rating (MMR) and its history over time, plus an automated smurf-likelihood score with the signals that produced it. Tournament participation is stored too: registrations, teams, match results, bracket placement, and prize records.
 
-**Prevent Abuse:**
-- Enforce rate limits and cooldowns
-- Detect and prevent cheating or exploitation
-- Prevent spam and automated abuse
-- Maintain fair gameplay in economy and tournaments
+**Honor and reports:** after tournament matches, other participants may rate your sportsmanship or file a misconduct report. Votes, reports, and the reputation score derived from them are stored and visible to tournament staff.
 
-**Improve the Service:**
-- Analyze usage patterns to improve features
-- Debug errors and fix issues
-- Develop new features based on user behavior
-- Optimize performance and reliability
+### 2.6 Join Screening (Gatekeeper)
 
-### 3.2 Legal Uses
+When you join a server using the verification gate, the Bot records your join: when your Discord account was created, when you joined, who invited you, and an automated risk score with human-readable flags (for example "account created less than 24 hours ago" or "name closely matches an existing member"). The score is computed from public Discord signals only: account age, avatar presence, username shape, name similarity to existing members, join timing patterns, and the invite graph. Held joins and moderator decisions (approve/reject) are recorded.
 
-We may use or disclose your information to:
-- Comply with applicable laws and legal obligations
-- Respond to valid legal requests (subpoenas, court orders)
-- Protect our rights, property, or safety
-- Enforce our Terms of Service
+### 2.7 Web Verification (only if the server enables it)
 
-## 4. Data Storage and Security
+Some servers require a short browser check (a Cloudflare Turnstile captcha) before access. When you complete that page, your IP address is processed **transiently** to derive and store:
 
-### 4.1 Storage Location
+- a salted one-way hash of the IP (used only to detect alternate accounts on that server; it cannot be reversed to recover the IP)
+- country-level location and your internet provider's name (via ip-api.com)
+- whether the connection looks like a VPN, proxy, or datacenter
+- your browser's user-agent string
 
-Your data is stored in:
-- **SQLite databases** on the bot operator's private servers
-- Server location: Bot operator's infrastructure
+The raw IP is never stored or logged, and this data is visible only to that server's moderators.
 
-### 4.2 Security Measures
+### 2.8 Media Requests
 
-We implement reasonable security measures to protect your data, including:
-- Restricted access to databases (bot operator only)
-- Regular backups to prevent data loss
-- Secure server configurations
-- Limited data retention where possible
+For authorized users: requested titles, request status, and timestamps.
 
-### 4.3 Security Limitations
+### 2.9 Moderation
 
-However, **no method of storage or transmission is 100% secure**. While we strive to protect your data, we cannot guarantee absolute security. You use the Bot at your own risk.
+Moderation actions taken through the Bot (who, what, when, the stated reason) are logged for audit purposes.
 
-## 5. Data Sharing and Third Parties
+### 2.10 Supporter Subscription
 
-### 5.1 Third-Party Services
+If you subscribe through Discord, the Bot receives only the entitlement (that your account has an active subscription) so it can grant perks. **Discord handles all payment processing; we never receive your payment details.**
 
-The Bot integrates with third-party services that may collect their own data:
+### 2.11 What We Do NOT Collect
 
-**Discord:**
-- All Bot interactions occur through Discord's platform
-- Discord's [Privacy Policy](https://discord.com/privacy) applies
-- Payment processing for tournaments is handled exclusively by Discord
+- message content (other than the commands you run)
+- private/direct message content (the Bot DMs you, but does not read your DMs)
+- voice audio of any kind
+- payment information
+- email addresses, phone numbers, real names, or addresses
+- raw IP addresses (see 2.7; normal Discord bot interactions never expose your IP to us at all)
 
-**YouTube (via yt-dlp):**
-- Music streaming sources content from YouTube and similar platforms
-- YouTube's [Privacy Policy](https://policies.google.com/privacy) may apply
-- We do not send personally identifiable information to YouTube
+## 3. How We Use It
 
-**Riot Games API:**
-- League of Legends features use Riot's API
-- Riot Games' [Privacy Notice](https://www.riotgames.com/en/privacy-notice) applies
-- We share summoner names to retrieve match data
+- **Running features**: playing music, tracking balances, running games and tournaments, granting roles, fulfilling media requests.
+- **Fairness and safety**: enforcing cooldowns, detecting cheating and alternate accounts, screening joins, keeping tournaments balanced, and giving moderators an audit trail.
+- **Improvement**: aggregate statistics to balance games and fix bugs.
+- **Legal**: complying with law and valid legal requests, and enforcing the Terms of Service.
 
-**Media Server Platforms:**
-- Media library requests may be sent to configured platforms (Radarr/Sonarr/Jellyfin)
-- These platforms are operated by the bot operator or authorized administrators
-- Access to media request features is restricted to authorized users only
+## 4. Sharing and Third Parties
 
-### 5.2 Data Sharing Policy
+We do not sell your data, share it with advertisers, or disclose it publicly. Data is not shared across Discord servers, except that a shared Riot account or shared verification-page hash may flag an alternate account within the same server. We may disclose data when required by law.
 
-We do **NOT**:
-- Sell your personal data to third parties
-- Share your data with advertisers or marketers
-- Publicly disclose your personal information
-- Share data across different Discord servers
+Services the Bot talks to, each under its own privacy policy:
 
-We **MAY** share data:
-- When required by law or legal process
-- With your explicit consent
-- In aggregated, anonymized form for statistics (no personal identification)
+- **Discord** ([privacy policy](https://discord.com/privacy)): everything the Bot does flows through Discord, including subscription payments.
+- **YouTube** ([privacy policy](https://policies.google.com/privacy)): music streaming; no personal data of yours is sent.
+- **Riot Games** ([privacy notice](https://www.riotgames.com/en/privacy-notice)): we look up the Riot account you link to fetch rank and match data.
+- **Cloudflare Turnstile** ([privacy policy](https://www.cloudflare.com/privacypolicy/)): the captcha on the optional verification page; Cloudflare receives standard request metadata including your IP when the widget loads.
+- **ip-api.com** ([privacy policy](https://ip-api.com/docs/legal)): server-side lookup of country and VPN/proxy indicators during web verification; only the IP is sent, never your Discord identity.
+- **Media server platforms** (Radarr/Sonarr/Jellyfin): operated by the bot operator; media requests are forwarded there.
 
-## 6. Data Retention
+## 5. Storage and Security
 
-### 6.1 Retention Period
+Data lives in a SQLite database on the operator's own hardware. Access is restricted to the operator, backups are taken regularly (and encrypted), and reasonable security measures are in place. No system is perfectly secure; in the event of a breach compromising personal data, affected users will be notified via Discord where feasible.
 
-We retain your data **indefinitely** to provide ongoing service functionality, including:
-- Persistent virtual currency balances
-- Historical statistics and leaderboards
-- Tournament records and prize distribution
-- Media request history
+## 6. Retention and Deletion
 
-### 6.2 Data Deletion
+Data is kept for as long as it is needed to run the Bot (balances, statistics, and tournament history are inherently long-lived). You can request deletion at any time:
 
-You may request deletion of your data at any time (see Section 8). Upon deletion request:
-- Your personal data will be removed within **30 days**
-- Some data may be retained for:
-  - Legal compliance and obligation
-  - Fraud prevention and security
-  - Legitimate operational purposes (e.g., tournament integrity)
+1. Contact the bot operator on Discord (DM the owner, or ask a server admin to relay).
+2. Say whether you want everything deleted or specific data (for example just your Riot link).
+3. Deletion is completed within **30 days** and confirmed to you.
 
-Deleted data types include:
-- Discord User ID associations
-- Music listening history
-- Economy balances and transaction history
-- League of Legends account links
-- Media request history
+Deletion covers your Discord ID associations, music history, economy and game data, Riot account link and derived scores, and media request history. A minimal record may be retained where needed for security (for example ban evasion prevention) or legal compliance, and aggregate statistics that no longer identify you may be kept. Some features stop working after deletion (your balance and tournament eligibility are gone).
 
-Data that may be retained (anonymized):
-- Aggregated statistics (with no personal identifiers)
-- Transaction logs for financial auditing (tournament entries/prizes)
+## 7. Your Rights
 
-## 7. Your Privacy Rights
+You can ask, at any time and free of charge, to:
 
-### 7.1 Right to Access
+- **Access**: see what data we hold about you, and get a copy in a common format.
+- **Correct**: fix inaccurate data (for example relink the right Riot account).
+- **Delete**: as described in Section 6.
+- **Object or restrict**: object to specific processing, or simply stop using the Bot.
 
-You have the right to request:
-- Confirmation of what data we store about you
-- A copy of your personal data
-- Information about how your data is used
+If you are in the EEA/UK, these correspond to your GDPR rights; processing is based on legitimate interest (running the features you use) and consent (your voluntary use and account linking), and you may lodge a complaint with your local data protection authority. If you are a California resident, the CCPA gives you equivalent rights to know, delete, and not be discriminated against; we do not sell personal information. We aim to answer access and correction requests within 14 days and deletion requests within 30 days.
 
-### 7.2 Right to Deletion
+## 8. Children
 
-You have the right to request deletion of your personal data (see Section 8.2).
+The Bot is not for children under 13 (or the digital-consent age in your country), matching Discord's own minimum age. If you believe a child under 13 has used the Bot, contact the operator and the data will be deleted.
 
-### 7.3 Right to Correction
+## 9. International Transfers
 
-You have the right to:
-- Correct inaccurate data (e.g., unlink and re-link League of Legends accounts)
-- Update your information through Bot commands where available
+The Bot's server may be in a different country than you. By using the Bot you consent to your data being processed there, protected as described in this policy.
 
-### 7.4 Right to Object
+## 10. Cookies and Tracking
 
-You have the right to:
-- Stop using the Bot at any time
-- Object to specific data processing activities
-- Request restrictions on how your data is used
+The Bot uses no cookies, analytics, or tracking of any kind. The one exception: the optional web verification page embeds Cloudflare Turnstile, which may set its own cookies to operate the captcha under Cloudflare's policy. The page itself sets none.
 
-### 7.5 Right to Data Portability
+## 11. Changes
 
-You may request your data in a structured, commonly used format for transfer to another service (where technically feasible).
+This policy may be updated at any time; the "Last Updated" date changes when it is, and material changes are announced in Discord where feasible. Continued use after a change means you accept the update.
 
-## 8. How to Exercise Your Rights
+## 12. Contact
 
-### 8.1 Contact the Bot Operator
-
-To exercise any of your privacy rights, contact the bot operator via Discord:
-- Direct message the bot owner (owner ID configured in the Bot)
-- Contact server administrators who can relay your request
-
-### 8.2 Data Deletion Requests
-
-To request data deletion:
-1. Contact the bot operator via Discord
-2. Specify which data you want deleted (or request full deletion)
-3. Verify your identity (Discord User ID)
-4. Receive confirmation when deletion is complete (within 30 days)
-
-**Note:** Some Bot features may become unavailable after data deletion (e.g., economy balances, tournament eligibility).
-
-### 8.3 Response Time
-
-We will respond to privacy requests within:
-- **30 days** for data deletion requests
-- **14 days** for data access or correction requests
-
-## 9. Children's Privacy
-
-The Bot does not knowingly collect personal information from children under the age of 13 (or the applicable age of digital consent in your jurisdiction).
-
-Discord's Terms of Service require users to be at least 13 years old. If you believe a child under 13 has provided us with personal information, please contact us immediately, and we will delete that information.
-
-## 10. International Data Transfers
-
-The Bot's servers may be located in a different country than where you reside. By using the Bot, you consent to the transfer of your information to servers and facilities in other jurisdictions.
-
-We will take reasonable steps to ensure your data is treated securely and in accordance with this Privacy Policy, regardless of where it is processed.
-
-## 11. Cookies and Tracking
-
-The Bot does **NOT** use:
-- Cookies
-- Web beacons
-- Tracking pixels
-- Analytics services (e.g., Google Analytics)
-
-All data collection occurs through direct Bot interactions within Discord.
-
-## 12. Changes to This Privacy Policy
-
-We reserve the right to update or modify this Privacy Policy at any time. Changes will be effective immediately upon posting with an updated "Last Updated" date.
-
-**We will notify you of material changes** by:
-- Posting an announcement in Discord (where feasible)
-- Updating the "Last Updated" date at the top of this document
-
-Your continued use of the Bot after changes are posted constitutes acceptance of the updated Privacy Policy. We encourage you to review this Privacy Policy periodically.
-
-## 13. Data Breach Notification
-
-In the event of a data breach that compromises your personal information, we will:
-- Investigate the breach promptly
-- Take steps to secure the data and prevent further unauthorized access
-- Notify affected users via Discord (where feasible) within a reasonable timeframe
-- Comply with applicable data breach notification laws
-
-## 14. Third-Party Links
-
-The Bot may provide links to third-party websites or services (e.g., YouTube videos, Riot Games profiles). We are **not responsible** for the privacy practices of these third-party services. We encourage you to review their privacy policies before providing any personal information.
-
-## 15. California Privacy Rights (CCPA)
-
-If you are a California resident, you have additional rights under the California Consumer Privacy Act (CCPA):
-
-- **Right to Know:** Request disclosure of personal information collected, used, or shared
-- **Right to Delete:** Request deletion of personal information (subject to exceptions)
-- **Right to Opt-Out:** Opt-out of sale of personal information (Note: We do not sell personal information)
-- **Right to Non-Discrimination:** Not receive discriminatory treatment for exercising CCPA rights
-
-To exercise these rights, contact us via Discord (see Section 8).
-
-## 16. European Privacy Rights (GDPR)
-
-If you are located in the European Economic Area (EEA), you have rights under the General Data Protection Regulation (GDPR):
-
-- **Lawful Basis:** We process data based on legitimate interests (providing Bot functionality) and consent (voluntary use)
-- **Data Protection Officer:** For privacy inquiries, contact the bot operator via Discord
-- **Right to Lodge a Complaint:** You may file a complaint with your local data protection authority
-
-## 17. Contact Information
-
-For questions, concerns, or requests regarding this Privacy Policy or your personal data:
-
-**Contact Method:** Discord (contact the bot owner directly)
-
-**Response Time:** We aim to respond to all inquiries within 14 days.
+For any privacy question or request: contact the bot operator on Discord. We aim to respond within 14 days.
 
 ---
 
-**Raven Discord Bot** - Version 2.0.0
-
-Privacy Policy effective as of January 31, 2026
-
-This Privacy Policy was last updated on February 8, 2026.
+**Raven Discord Bot**. Privacy Policy effective January 31, 2026, last updated July 11, 2026.

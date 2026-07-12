@@ -1,301 +1,121 @@
 # Terms of Service - Raven Discord Bot
 
-**Last Updated:** February 8, 2026
+**Last Updated:** July 11, 2026
 **Effective Date:** January 31, 2026
 
-## 1. Acceptance of Terms
+## The Short Version
 
-By using Raven ("the Bot") on this Discord server, you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you must not use the Bot.
+- Raven is a free community bot. Int Coins are play money with no real-world value and are never sold.
+- Tournaments are currently free to enter (or use Int Coins). The bot supports paid entry through Discord, but no paid tournaments are currently offered.
+- Play fair: one account per person, no automation, no exploiting bugs.
+- We store the data needed to run the bot's features. Details live in the [Privacy Policy](https://raw.githubusercontent.com/Rexergamn/raven-bot-legal/main/PRIVACY.md), and you can ask for your data to be deleted.
+- The bot is a hobby project provided as is, with no uptime or data-preservation guarantees.
 
-Use of the Bot is also subject to Discord's Terms of Service and Community Guidelines.
+The full terms below are what actually governs; this summary is just orientation.
 
-## 2. Service Description
+## 1. Acceptance
 
-Raven is a private Discord bot providing the following services:
+By using Raven ("the Bot") you agree to these Terms of Service and to our [Privacy Policy](https://raw.githubusercontent.com/Rexergamn/raven-bot-legal/main/PRIVACY.md). If you do not agree, do not use the Bot. Your use of Discord itself is governed by Discord's own Terms of Service and Community Guidelines, which also apply here.
 
-- **Music Playback**: Stream audio from YouTube and other sources in Discord voice channels
-- **Economy System**: Virtual currency ("Int Coins") with casino games and transactions
-- **League of Legends Tournaments**: Automated tournament management with optional paid entry
-- **Media Library Management**: Integration with media server platforms (restricted to authorized users)
-- **Moderation Tools**: Server management and moderation utilities
-- **Statistics Tracking**: User activity and music playback statistics
+"We", "us", and "the operator" mean the individual who runs the Bot. Raven is a private hobby project, not a company.
 
-## 3. Virtual Economy and Casino Games
+## 2. What Raven Does
 
-### 3.1 Virtual No-Stakes Game
+- **Music**: streams audio from YouTube and similar platforms into voice channels.
+- **Int Coins economy**: a virtual currency earned through activity, with casino-style games, a shop, daily quests, Wordle, and rewards for inviting friends or bumping the server on Disboard.
+- **Games**: a roguelike dungeon (`/dungeon`), trading-card packs and card battles, and clans with levels and shared activities.
+- **League of Legends tournaments**: automated 5v5 tournaments with skill-based team balancing, brackets, ready checks, and a player-driven honor system.
+- **Media requests**: request movies and shows for the operator's private media server (restricted to authorized users).
+- **Server access and safety**: a new-member verification gate, an onboarding wizard, alt-account and bot screening, and moderation tools.
+- **Supporter subscription**: an optional paid subscription through Discord with cosmetic and convenience perks (see Section 6).
 
-Your use of the Bot's economy features is expected to remain as a **virtual no-stakes game**. Our virtual economy has **no connection to real-life money**. It is expected during your use of the Service that these remain separate.
+Any feature can change or disappear at any time (see Section 9).
 
-### 3.2 Virtual Currency
+## 3. Int Coins and Games
 
-"Int Coins" is a virtual, in-game currency with **NO real-world value**. Int Coins:
-- Cannot be exchanged for real money, goods, or services outside the Bot
-- Cannot be transferred outside the Bot's ecosystem
-- Have no cash value and cannot be redeemed
-- Are provided for entertainment purposes only
+**Int Coins are play money.** They have no real-world value, cannot be bought, sold, cashed out, or transferred outside the Bot, and exist for entertainment only. We never sell Int Coins for real money.
 
-### 3.3 Casino and Gambling Features
+The Bot includes games of chance (slots, blackjack, coinflip, dice, poker, and others) that wager Int Coins. Because nothing of real-world value is staked or won, this is not gambling in the legal sense; it must stay that way. You may not attach real-world value to Int Coins, for example by selling coins, accounts, or in-game items for money or anything else of value. Balances may be adjusted or reset to fix bugs, reverse exploits, or rebalance the economy.
 
-The Bot includes casino games (coinflip, dice, slots, blackjack, minesweeper, rock-paper-scissors, battleship) that use Int Coins. By participating:
-- You acknowledge these games are **virtual and for entertainment only**
-- You understand Int Coins have no real-world value or monetary worth
-- You accept the risk of losing virtual currency during gameplay
-- You confirm you are of legal age to participate in simulated gambling activities in your jurisdiction
+**Fair play.** You may not use alternate accounts to farm rewards, automate interactions with the Bot (self-bots, macros, scripts), exploit bugs for gain, or collude to transfer wealth around the rules. Violations can lead to balance resets, exclusion from features, or removal from the server. If you find a bug, report it to the operator instead of using it; that is appreciated and sometimes rewarded.
 
-### 3.4 No Purchase of Virtual Currency
+## 4. Tournaments
 
-Int Coins can be earned through Bot activities (daily/weekly rewards, games) without any monetary payment. The bot operator does not sell Int Coins for real money.
+### 4.1 Entry
 
-## 4. Tournament System
+Tournaments are free to enter or use Int Coins entry fees. When Int Coins entry fees are charged, 70% of collected fees go to the winners' prize pool and 30% is retained as a sink for the virtual economy.
 
-### 4.1 Tournament Format
+**Paid entry is not currently offered.** The Bot contains a framework for paid tournament entry through Discord's payment system, but it is inactive and no tournament currently charges real money. If paid tournaments are ever offered, these additional terms will apply: entry fees are processed entirely by Discord; fees are refunded if the tournament is cancelled before it begins and are otherwise non-refundable; prize distribution and any fee split will be published with the specific tournament's announcement and will comply with Riot Games' third-party tournament policies.
 
-Tournaments use a **double-elimination bracket** format. However, when the number of registered teams exceeds the standard bracket size, a **Play-In round** is used as a single-elimination qualifier. Play-In losers are **immediately eliminated** (no second chance through the losers bracket). Teams that win their Play-In match advance to the main double-elimination bracket.
+### 4.2 Format and Balancing
 
-### 4.2 Paid Tournaments
+Tournaments use a double-elimination bracket. When more teams register than the bracket size allows, a single-elimination Play-In round qualifies teams into the main bracket; Play-In losers are eliminated.
 
-Some League of Legends tournaments may require paid entry fees using Discord's monetization features. By entering a paid tournament:
-- You agree to pay the specified entry fee via Discord's payment system
-- Entry fees are **non-refundable** except in cases of tournament cancellation by the bot operator before the tournament begins
-- Tournament prizes are distributed based on tournament results and verification
-- You accept the risk of technical issues, disputes, or tournament cancellations
+To keep matches fair, the Bot estimates each player's skill from their linked League of Legends account (rank, match history, account level) and balances teams with it. Automated checks also look for accounts whose displayed rank likely understates their real skill ("smurfs"); such accounts may be seeded higher or routed to tournament staff for manual review. These estimates are automated and imperfect, are applied at staff discretion, and are not accusations of wrongdoing.
 
-### 4.3 Prize Distribution and Fees
+### 4.3 Conduct and Honor
 
-**Riot Games Compliance:**
-All League of Legends tournaments comply with Riot Games' third-party tournament policy. Discord's payment processing fee is treated as a competition cost. The prize pool receives **70% of net proceeds** after Discord's automatic platform fee deduction.
+Play tournament matches on your own linked account, show up for your matches, and treat teammates and opponents decently. After matches, the Bot may ask participants to rate teammates and report misconduct; this feeds a reputation score that tournament staff use for seeding reviews, dispute decisions, and, in serious cases, exclusion from future tournaments. Deliberately abusing the honor or report system (false reports, vote brigading) is itself a violation.
 
-**Paid Tournament Fee Structure:**
-- **Discord's platform fee**: 15% (automatically deducted, Growth Tier rate for first $1M in sales)
-- **Net proceeds**: 85% (what the organizer receives after Discord's fee)
-- Of the net proceeds:
-  - **Prize pool contribution**: 70% of net = 59.5% of gross entry fee
-  - **House/operational fee**: 30% of net = 25.5% of gross entry fee (bot hosting, server costs, administration)
-- Example: $10 entry = $1.50 Discord fee → $8.50 net → $5.95 to prize pool + $2.55 house fee
-- Note: Discord's platform fee increases to 30% after $1M in cumulative sales
+### 4.4 Disputes and Cancellation
 
-**Int Coins Tournament Fee Structure:**
-- **Prize pool contribution**: 70% of each entry fee (Riot Games compliance)
-- **House/operational fee**: 30% of each entry fee (bot hosting, server costs, administration)
-- Example: 1,000 coins entry = 700 coins to prize pool + 300 coins house fee
+Match and eligibility disputes are decided by tournament staff and the operator, based on available evidence (screenshots, replays, Bot logs). Their decisions are final. The operator may cancel, postpone, or modify any tournament at any time, including for low turnout, technical problems, or suspected cheating.
 
-**Prize Award Terms:**
-- Prizes are awarded based on tournament results and verification by tournament administrators
-- Prizes may be withheld or forfeited if cheating, rule violations, or Terms violations are detected
-- Prizes are final once distributed and cannot be reversed
+### 4.5 Riot Games
 
-### 4.4 Dispute Resolution
+The Bot's League of Legends features use the Riot Games API. Raven is not affiliated with, endorsed by, or sponsored by Riot Games, Inc. League of Legends and Riot Games are trademarks of Riot Games, Inc.
 
-Tournament disputes (match results, scoring, eligibility):
-- Are resolved at the sole discretion of tournament administrators and the bot operator
-- May be resolved through evidence review (screenshots, replays, Bot logs)
-- Decisions are **final and binding**
-- Entry fee refunds are only provided if the tournament is cancelled before it begins
+## 5. Verification and Screening
 
-### 4.5 Tournament Cancellation
+Servers may require new members to complete a short verification flow before getting access. As part of this, the Bot screens joins for signs of alternate accounts, bot accounts, and raids, and may hold an account for moderator review before granting access. Some servers additionally require a browser check (a captcha page); what that page processes is described in the Privacy Policy. Moderator decisions on held accounts are at the server staff's discretion.
 
-The bot operator reserves the right to cancel, postpone, or modify any tournament at any time for any reason, including but not limited to:
-- Insufficient participants
-- Technical difficulties or Bot outages
-- Violation of third-party terms of service (Riot Games, Discord)
-- Suspected cheating, abuse, or rule violations
+## 6. Supporter Subscription
 
-If a tournament is cancelled before it begins, entry fees will be refunded via Discord's payment system.
+An optional supporter subscription may be offered through Discord's built-in subscription system. Payments, billing, cancellation, and refunds are handled entirely by Discord under Discord's terms; the operator never sees your payment details. Perks (such as a supporter role or boosted daily rewards) are goodwill benefits, may change over time, and do not exempt supporters from these Terms. If the subscription is discontinued, Discord's refund policies govern any remaining paid period.
 
-## 5. Data Collection and Privacy
+## 7. Acceptable Use
 
-### 5.1 Data We Collect
+You agree not to:
 
-The Bot collects and stores the following data:
-- **Discord User IDs**: For user identification and service functionality
-- **Server/Guild IDs**: For server-specific features and configurations
-- **Music Statistics**: Songs played, play counts, listening history, queue data
-- **Economy Data**: Int Coin balances, transaction history, game results, cooldown tracking
-- **League of Legends Data**: Summoner names, account IDs, match results, tournament participation, team assignments
-- **Media Library Requests**: Content requests and their status (for authorized users only)
-- **Voice Channel Activity**: Voice session duration, music playback statistics
+- break any law, Discord's terms, or third-party terms (YouTube, Riot Games) through the Bot
+- harass, threaten, spam, or harm other users, or distribute malicious content through the Bot
+- use more than one Discord account to interact with the Bot, or evade a ban, hold, or restriction with another account
+- automate interactions with the Bot or attempt to bypass rate limits, cooldowns, or anti-abuse measures
+- probe, disrupt, reverse engineer, or attempt to gain unauthorized access to the Bot or its infrastructure
+- impersonate the operator, moderators, or other users
 
-### 5.2 How We Use Data
+Violations can result in loss of virtual currency, forfeiture of tournament standing or prizes, and suspension or permanent loss of access to the Bot, with or without warning.
 
-Collected data is used to:
-- Provide Bot functionality (music playback, economy system, tournaments, media library management)
-- Generate statistics, leaderboards, and user profiles
-- Prevent abuse, cheating, and enforce cooldowns/rate limits
-- Improve service quality, fix bugs, and develop new features
+## 8. Your Data
 
-### 5.3 Data Storage and Security
+What the Bot collects, why, and how to get it deleted is covered in the [Privacy Policy](https://raw.githubusercontent.com/Rexergamn/raven-bot-legal/main/PRIVACY.md). In short: the Bot stores the gameplay and account data needed to run its features, does not sell it, and deletes your personal data on request (contact the operator on Discord).
 
-- Data is stored in SQLite databases on the bot operator's servers
-- Reasonable security measures are implemented to protect stored data
-- Data is **not sold or shared** with third parties except as required by law
-- Data is retained indefinitely unless deletion is requested
+## 9. Availability and Changes to the Service
 
-### 5.4 Third-Party Services
-
-The Bot integrates with third-party services that have their own terms and privacy policies:
-- **YouTube/yt-dlp**: For music streaming (subject to YouTube's Terms of Service)
-- **Riot Games API**: For League of Legends data (subject to Riot Games' Terms of Service)
-- **Discord API**: For all Bot functionality (subject to Discord's Terms of Service)
-- **Media Server Platforms**: For media library management features (if configured by administrators)
-
-Your use of these Bot features is subject to the respective third-party terms of service.
-
-### 5.5 Data Deletion Requests
-
-You may request deletion of your data by contacting the bot operator via Discord. Upon request:
-- Your personal data will be deleted within a reasonable timeframe (typically 30 days)
-- Some data may be retained for legal compliance or legitimate operational purposes
-- Data deletion may affect your ability to use certain Bot features
-
-## 6. Service Availability and Modifications
-
-### 6.1 No Uptime Guarantee
-
-The Bot is provided **"as is" and "as available"** without any uptime guarantees. The bot operator does not guarantee:
-- Continuous, uninterrupted, or error-free operation
-- Availability at any specific time or date
-- Compatibility with all Discord server configurations
-- Preservation of data during outages, crashes, or technical issues
-
-### 6.2 Service Modifications
-
-The bot operator reserves the right to, at any time and without prior notice:
-- Modify, suspend, or discontinue any Bot feature or functionality
-- Change command behavior, limits, cooldowns, or availability
-- Update these Terms (see Section 11)
-- Terminate the Bot service entirely without liability
-
-### 6.3 Maintenance and Downtime
-
-The Bot may be unavailable or experience reduced functionality due to:
-- Scheduled maintenance or updates
-- Emergency repairs or bug fixes
-- Third-party service outages (Discord API, YouTube, Riot Games API)
-- Technical issues, server failures, or hosting problems
-
-The bot operator is **not liable** for any losses, damages, or inconvenience resulting from service unavailability.
-
-## 7. User Responsibilities
-
-By using the Bot, you agree to:
-- Comply with Discord's Terms of Service and Community Guidelines
-- Not use the Bot for illegal, harmful, abusive, or malicious purposes
-- Not attempt to exploit, hack, reverse engineer, or abuse Bot features
-- Not use the Bot to harass, spam, threaten, or harm other users
-- Not attempt to circumvent rate limits, cooldowns, restrictions, or anti-abuse measures
-- Not use automated systems (self-bots, macros, scripts) to interact with the Bot
-- Respect intellectual property rights of music content, third-party services, and the Bot itself
-
-## 8. Prohibited Activities
-
-You may not:
-- Reverse engineer, decompile, or attempt to extract the Bot's source code
-- Use the Bot to violate any laws, regulations, or third-party rights
-- Create multiple accounts to abuse economy features, bypass restrictions, or gain unfair advantages
-- Share, sell, or transfer Bot accounts or virtual currency
-- Automate interactions with the Bot using self-bots, macros, or automated scripts
-- Use the Bot to distribute malware, viruses, phishing links, or harmful content
-- Impersonate the bot operator, administrators, or other users
-
-Violation of these prohibitions may result in immediate termination of your access to the Bot and forfeiture of all virtual currency and tournament prizes.
-
-## 9. Limitation of Liability
-
-### 9.1 Disclaimer of Warranties
-
-THE BOT IS PROVIDED **"AS IS"** AND **"AS AVAILABLE"** WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, OR NON-INFRINGEMENT.
-
-### 9.2 No Responsibility for Damages
-
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE BOT OPERATOR SHALL NOT BE LIABLE FOR:
-- Any indirect, incidental, special, consequential, or punitive damages
-- Loss of profits, data, use, goodwill, or other intangible losses
-- Damages resulting from service unavailability, errors, bugs, or data loss
-- Disputes between users arising from Bot usage or tournament results
-- Actions, omissions, or failures of third-party services (Discord, YouTube, Riot Games)
-- Any real-life or virtual damages caused by your use of the Service
-
-### 9.3 Maximum Liability
-
-The bot operator's total liability for any claims related to the Bot shall not exceed the amount you paid for tournament entries in the past 12 months (if any). For free features, liability is limited to **$0 USD**.
-
-### 9.4 Indemnification
-
-You agree to indemnify, defend, and hold harmless the bot operator from any claims, damages, losses, liabilities, and expenses (including reasonable legal fees) arising from:
-- Your use or misuse of the Bot
-- Your violation of these Terms
-- Your violation of any third-party rights or applicable laws
-- Your participation in tournaments or economy activities
+The Bot runs on hobbyist hardware and is provided "as is" and "as available". There is no guarantee of uptime, error-free operation, or preservation of any data (balances, statistics, tournament history) through outages, bugs, or database issues. The operator may modify, suspend, or discontinue any feature, or the whole Bot, at any time without notice or liability.
 
 ## 10. Termination
 
-### 10.1 Termination by You
+You can stop using the Bot at any time. The operator may suspend or terminate your access at any time, particularly for violations of these Terms. On termination, virtual balances, tournament standing, and other Bot-side benefits may be forfeited. Supporter subscriptions are cancelled through Discord; Discord's refund policies apply.
 
-You may stop using the Bot at any time by ceasing to interact with it or leaving the Discord server where it operates.
+## 11. Liability
 
-### 10.2 Termination by Bot Operator
+TO THE MAXIMUM EXTENT PERMITTED BY LAW: THE BOT IS PROVIDED WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED. THE OPERATOR IS NOT LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, FOR LOSS OF DATA OR VIRTUAL ITEMS, FOR DISPUTES BETWEEN USERS, OR FOR FAILURES OF THIRD-PARTY SERVICES (DISCORD, YOUTUBE, RIOT GAMES, CLOUDFLARE). TOTAL LIABILITY FOR ANY CLAIM IS LIMITED TO THE AMOUNT YOU PAID THROUGH THE BOT IN THE PRECEDING 12 MONTHS, AND TO $0 FOR FREE FEATURES.
 
-The bot operator may terminate or suspend your access to the Bot at any time, with or without notice, for any reason, including but not limited to:
-- Violation of these Terms or Discord's Terms of Service
-- Abusive, harmful, or disruptive behavior
-- Suspected cheating, exploitation, or abuse of Bot features
-- Technical or security concerns
-- At the bot operator's sole discretion
+You agree to indemnify and hold the operator harmless from claims arising out of your misuse of the Bot or your violation of these Terms or of any law or third-party right.
 
-### 10.3 Effect of Termination
+## 12. Changes to These Terms
 
-Upon termination of your access:
-- You immediately lose access to all Bot features and stored data
-- All Int Coin balances and economy data associated with your account may be deleted
-- All tournament entries, prizes, and benefits are forfeited
-- **No refunds** will be provided for paid tournament entries (unless required by law)
+These Terms may be updated at any time; the "Last Updated" date at the top changes when they are. Material changes (especially anything affecting paid features) will be announced in Discord where feasible. Continuing to use the Bot after a change means you accept the updated Terms.
 
-## 11. Changes to Terms
+## 13. General
 
-The bot operator reserves the right to modify, update, or replace these Terms at any time. Changes will be effective:
-- Immediately upon posting the updated Terms with a new "Last Updated" date
-- When you continue to use the Bot after changes are posted
+If part of these Terms is found unenforceable, the rest remains in effect. Failure to enforce a provision is not a waiver of it. These Terms are the entire agreement between you and the operator about the Bot and are governed by applicable local law.
 
-Your continued use of the Bot after any changes constitutes acceptance of the modified Terms. You are responsible for reviewing these Terms periodically.
+## 14. Contact
 
-Material changes affecting paid features (tournament entry fees, prizes) will be communicated via Discord notifications or Bot announcements where feasible.
-
-## 12. Third-Party Content and Intellectual Property
-
-### 12.1 Music and Media Content
-
-Music and media streamed through the Bot is sourced from third-party platforms (primarily YouTube). The bot operator:
-- Does not host, own, or claim any rights to music or media content
-- Is not responsible for the availability, quality, accuracy, or legality of streamed content
-- May remove access to content at any time, including at the request of copyright holders
-- Encourages users to respect copyright laws and intellectual property rights
-
-### 12.2 League of Legends
-
-League of Legends integration uses the Riot Games API. This bot is **not affiliated with, endorsed by, or sponsored by Riot Games, Inc.** League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc.
-
-## 13. Governing Law
-
-These Terms shall be governed by and construed in accordance with applicable local laws. Any disputes arising from these Terms or the Bot shall be resolved in accordance with those laws.
-
-## 14. Severability
-
-If any provision of these Terms is found to be invalid, illegal, or unenforceable, the remaining provisions shall remain in full force and effect. The invalid provision shall be modified to the minimum extent necessary to make it valid and enforceable while preserving its intent.
-
-## 15. Entire Agreement
-
-These Terms constitute the entire agreement between you and the bot operator regarding the Bot and supersede all prior agreements, understandings, representations, or communications, whether oral or written.
-
-## 16. No Waiver
-
-The bot operator's failure to enforce any right or provision of these Terms shall not constitute a waiver of such right or provision. Any waiver must be in writing and signed by the bot operator.
-
-## 17. Contact Information
-
-For questions, concerns, support requests, or data deletion requests regarding these Terms or the Bot, please contact the bot operator via Discord.
+Questions, disputes, or data requests: contact the bot operator on Discord (DM the bot owner, or ask a server administrator to relay).
 
 ---
 
-**Raven Discord Bot** - Version 2.0.0
-
-Terms of Service effective as of January 31, 2026. Last updated February 8, 2026.
+**Raven Discord Bot**. Terms of Service effective January 31, 2026, last updated July 11, 2026.
