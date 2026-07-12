@@ -46,7 +46,7 @@ When you join a server using the verification gate, the Bot records your join: w
 
 Some servers require a short browser check (a Cloudflare Turnstile captcha) before access. When you complete that page, your IP address is processed **transiently** to derive and store:
 
-- a salted one-way hash of the IP (used only to detect alternate accounts on that server; it cannot be reversed to recover the IP)
+- a salted one-way hash of the IP, computed with HMAC-SHA-256 using a secret key held only by the operator (used solely to detect alternate accounts on that server; without the key it cannot be matched or reversed, and even with it the original IP cannot be recovered)
 - country-level location and your internet provider's name (via ip-api.com)
 - whether the connection looks like a VPN, proxy, or datacenter
 - your browser's user-agent string
@@ -96,7 +96,7 @@ Services the Bot talks to, each under its own privacy policy:
 
 ## 5. Storage and Security
 
-Data lives in a SQLite database on the operator's own hardware. Access is restricted to the operator, backups are taken regularly (and encrypted), and reasonable security measures are in place. No system is perfectly secure; in the event of a breach compromising personal data, affected users will be notified via Discord where feasible.
+Data lives in a SQLite database on the operator's own hardware, on a private network, with access restricted to the operator (key-based authentication only). Backups are taken regularly, verified, and then encrypted with `age` (modern X25519 public-key encryption) before the unencrypted copy is deleted; only the operator holds the decryption key. An encrypted copy may also be stored off-site in a private Discord channel, where Discord's privacy policy applies to the (unreadable) file. All data in transit is encrypted: Bot traffic goes over Discord's TLS-secured API, and the optional verification page is served over HTTPS only. No system is perfectly secure; in the event of a breach compromising personal data, affected users will be notified via Discord where feasible.
 
 ## 6. Retention and Deletion
 
