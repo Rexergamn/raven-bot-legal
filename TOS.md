@@ -54,6 +54,8 @@ Tournaments are free to enter or use Int Coins entry fees. When Int Coins entry 
 
 In clan tournaments, clans enter as pre-formed teams chosen by the clan's leader or officers, with no draft.
 
+In hybrid tournaments, clans and solo players enter the same event. Clan teams take their places first; solo players are formed into teams for the places left, and solo players beyond those places become substitutes.
+
 **Paid entry is not currently offered.** The Bot contains a framework for paid tournament entry through Discord's payment system, but it is inactive and no tournament currently charges real money. If paid tournaments are ever offered, these additional terms will apply: entry fees are processed entirely by Discord; fees are refunded if the tournament is cancelled before it begins and are otherwise non-refundable; prize distribution and any fee split will be published with the specific tournament's announcement and will comply with Riot Games' third-party tournament policies.
 
 ### 4.2 Prizes
