@@ -1,6 +1,6 @@
 # Terms of Service - Raven Discord Bot
 
-**Last Updated:** October 8, 2026
+**Last Updated:** October 17, 2026
 **Effective Date:** January 31, 2026
 
 ## The Short Version
@@ -82,7 +82,7 @@ In tournaments where players sign up alone, the Bot forms the teams. To keep mat
 
 ### 4.4 Conduct and Honor
 
-Play tournament matches on your own linked account, show up for your matches, and treat teammates and opponents decently. After matches, the Bot may ask participants to rate teammates and report misconduct; this feeds a reputation score that tournament staff use for seeding reviews, dispute decisions, and, in serious cases, exclusion from future tournaments. Deliberately abusing the honor or report system (false reports, vote brigading) is itself a violation. Once teams are made you can drop out of your team at any time; it goes on your record, and counts more heavily the closer the tournament is to starting. A team that loses three players to dropouts is disqualified.
+Play tournament matches on your own linked account, show up for your matches, and treat teammates and opponents decently. After matches, the Bot may ask participants to rate teammates and report misconduct; this feeds a reputation score that tournament staff use for seeding reviews, dispute decisions, and, in serious cases, exclusion from future tournaments. Deliberately abusing the honor or report system (false reports, vote brigading) is itself a violation. Once teams are made you can drop out of your team at any time; it goes on your record, and counts more heavily the closer the tournament is to starting. A team that loses three players to dropouts is disqualified. Before the start, how active you are in your team's channels counts toward your reputation, and a player who stays quiet for days may be replaced by a substitute. A team that answers the icebreaker and spends time together in team voice earns a small Int Coins bonus.
 
 ### 4.5 Disputes and Cancellation
 

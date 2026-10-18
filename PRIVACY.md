@@ -1,6 +1,6 @@
 # Privacy Policy - Raven Discord Bot
 
-**Last Updated:** October 8, 2026
+**Last Updated:** October 17, 2026
 **Effective Date:** January 31, 2026
 
 ## The Short Version
@@ -40,6 +40,8 @@ Which invite link you joined through and who created it (used for invite rewards
 If you link a Riot account: your Riot ID, PUUID and summoner ID, region, account level, and current and historical rank. From these we derive and store an estimated skill rating (MMR) and its history over time, plus an automated smurf-likelihood score with the signals that produced it. Tournament participation is stored too: registrations, teams, match results, bracket placement, and prize records.
 
 **Honor and reports:** after tournament matches, other participants may rate your sportsmanship or file a misconduct report. Votes, reports, dropouts, and the reputation score derived from them are stored and visible to tournament staff.
+
+**Team channels:** while a tournament runs, the Bot counts how many messages you send in your team's text channel and how long you spend in its voice channel, never what you say. It also stores what you pick on the team panel: icebreaker answers, trivia guesses, and whether you're coming to a practice. Your activity feeds the reputation score, and tournament staff are told if you stay quiet for several days.
 
 **Predictions:** the answers you give in prediction polls during a match countdown, and whether they came true.
 
