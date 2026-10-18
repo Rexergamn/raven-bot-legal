@@ -1,6 +1,6 @@
 # Privacy Policy - Raven Discord Bot
 
-**Last Updated:** October 17, 2026
+**Last Updated:** October 18, 2026
 **Effective Date:** January 31, 2026
 
 ## The Short Version
@@ -49,6 +49,8 @@ If you link a Riot account: your Riot ID, PUUID and summoner ID, region, account
 
 **Looking For Group:** the groups you host or join, the lobby link you share, which Riot account hosted, and any reports you file or that are filed about you.
 
+**Avoid list:** the players you choose never to be put on a team with, and the reason you pick for each. Tournament staff can see these, and staff can add or remove one for you. The player you avoid is never told. If many players avoid the same person for conduct reasons, that person's honor score can drop.
+
 ### 2.6 Prizes
 
 If you place in a tournament with a prize: your placement, the prize amount, and whether it has been paid. Gift-card codes are stored encrypted until they are delivered to you by direct message. For a cash prize, the Bot asks you by direct message for a payout method and username (for example a PayPal username, which may be an email address you choose to give). It is used only to pay you, is visible only to tournament staff, and is kept as the record of the payment. We never receive card or bank details.
@@ -87,6 +89,8 @@ For authorized users: requested titles, request status, and timestamps.
 ### 2.10 Moderation
 
 Moderation actions taken through the Bot (who, what, when, the stated reason) are logged for audit purposes. So are tournament and server actions taken by staff on the website.
+
+**Suspicious-user reports:** a member can report an account as a scam, bot or advertiser. The report (who reported, who was reported, the reason and any details written) is stored and shown to moderators, who can see who filed it. The reported person is never told who reported them. An account that never completed verification may be banned automatically on a report.
 
 ### 2.11 Website Sign-In
 
