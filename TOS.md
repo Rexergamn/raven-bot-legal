@@ -1,6 +1,6 @@
 # Terms of Service - Raven Discord Bot
 
-**Last Updated:** October 17, 2026
+**Last Updated:** October 24, 2026
 **Effective Date:** January 31, 2026
 
 ## The Short Version
@@ -26,7 +26,7 @@ By using Raven ("the Bot") you agree to these Terms of Service and to our [Priva
 - **Music**: streams audio from YouTube and similar platforms into voice channels.
 - **Int Coins economy**: a virtual currency earned through activity, with casino-style games, a shop, daily quests, Wordle, and rewards for inviting friends or bumping the server on Disboard.
 - **Games**: a roguelike dungeon (`/dungeon`), an endless journey game in open beta (`/journey`), trading-card packs and card battles, and clans with levels and shared activities.
-- **League of Legends tournaments**: automated 5v5 tournaments with skill-based team balancing, clan entry, brackets, ready checks, prediction polls, livestreams, and a player-driven honor system, plus Looking For Group for finding players outside tournaments.
+- **League of Legends tournaments**: automated 5v5 tournaments with skill-based team balancing, clan entry, brackets, prediction polls, livestreams, and a player-driven honor system, plus Looking For Group for finding players outside tournaments.
 - **Website**: pages at app.starling.gg where you sign in with Discord to run your clan, and where staff run tournaments and server settings.
 - **Media requests**: request movies and shows for the operator's private media server (restricted to authorized users).
 - **Server access and safety**: a new-member verification gate, an onboarding wizard, alt-account and bot screening, and moderation tools.
@@ -41,6 +41,8 @@ Any feature can change or disappear at any time (see Section 9).
 The Bot includes games of chance (slots, blackjack, coinflip, dice, poker, and others) that wager Int Coins. Because nothing of real-world value is staked or won, this is not gambling in the legal sense; it must stay that way. You may not attach real-world value to Int Coins, for example by selling coins, accounts, or in-game items for money or anything else of value. Balances may be adjusted or reset to fix bugs, reverse exploits, or rebalance the economy.
 
 Some games are free to start and pay Int Coins as a reward, such as `/journey`. While a game is in beta, its rewards, rules and saved progress may be changed or reset.
+
+**Clan names.** A clan leader can rename their clan for an Int Coins fee, no more often than the server's rename cooldown, and not while the clan is in a tournament. Staff can lock a clan name or tag that breaks the rules or is too close to another clan's. A clan whose name is locked must pick a new one within the stated grace period, renames for free, and cannot enter tournaments until it does; if the grace period runs out, the clan gets a placeholder name until it picks one. Fees for a completed rename are not refunded.
 
 **Balances can shrink on their own.** To keep the economy from inflating, the Bot applies automatic deductions to large balances: a weekly wealth tax above a threshold, a daily surtax on the single largest balance, and an idle decay that drains balances left dormant for weeks at a time. Idle decay only applies after an extended period with no activity of any kind (commands, messages, voice, games, tournaments), and small balances are exempt from all three. A share of what these collect funds the weekly lottery jackpot. `/balance` shows the most recent deduction of each kind, and how long an account has been idle once it is at risk of decay. Thresholds and rates may be retuned as the economy changes.
 
