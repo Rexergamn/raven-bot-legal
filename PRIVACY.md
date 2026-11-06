@@ -1,6 +1,6 @@
 # Privacy Policy - Raven Discord Bot
 
-**Last Updated:** October 18, 2026
+**Last Updated:** November 5, 2026
 **Effective Date:** January 31, 2026
 
 ## The Short Version
@@ -8,7 +8,7 @@
 - The Bot stores your Discord user ID plus the gameplay data its features need: music stats, Int Coins balances, game and tournament history, and your linked Riot account if you link one.
 - It never sees your messages outside of commands, never sees your card or bank details, and never stores your raw IP address (an optional verification page stores one-way hashes of your IP and device, described below).
 - If you win a cash prize, it stores the payout username you give it so the operator can pay you.
-- Nothing is sold or shared with advertisers. Data stays on the operator's own hardware.
+- Nothing is sold or shared with advertisers. Data stays on the operator's own hardware, except reports you choose to send with `/suggest` (Section 2.14).
 - Ask the operator on Discord and your data will be deleted within 30 days.
 
 ## 1. Introduction
@@ -47,7 +47,7 @@ If you link a Riot account: your Riot ID, PUUID and summoner ID, region, account
 
 **Streams and recordings:** tournament matches may be livestreamed and recorded. During a streamed match, a broadcast app run by tournament staff reads the live game (picks, bans, and each player's in-game stats) from the League client on the broadcast computer and sends it to the Bot for the stream overlay. That app's IP address is logged for troubleshooting; it belongs to the staff member running the broadcast, never to players. Recordings and clips are stored on the operator's hardware and may be published (see the Terms of Service, Section 4.6).
 
-**Looking For Group:** the groups you host or join, the lobby link you share, which Riot account hosted, and any reports you file or that are filed about you.
+**Looking For Group:** the groups you host or join, the lobby link you share, which Riot account hosted, the role and tags you pick, the results and in-game stats of the games your group plays together (from Riot's match history), who you pick as your favourite teammate, and any reports you file or that are filed about you. Your picks are private; if two players pick each other, the group's thread is told. Your LFG activity can count toward your honor.
 
 **Avoid list:** the players you choose never to be put on a team with, and the reason you pick for each. Tournament staff can see these, and staff can add or remove one for you. The player you avoid is never told. If many players avoid the same person for conduct reasons, that person's honor score can drop.
 
@@ -104,7 +104,11 @@ If you subscribe through Discord, the Bot receives only the entitlement (that yo
 
 If the server sends you a feedback survey, we store the answers you submit, the questions you were shown, and which engagement segment you fell into (for example "first-time player" or "hasn't played recently"). Surveys are personalized using data we already hold about your activity on the server (how long you've been here, tournament history, and similar) so we don't ask what we can already answer; that context snapshot is saved alongside your answers. Responses are tied to your Discord account so we can grant the completion reward and avoid asking you twice. You can permanently opt out of survey DMs at any time with the button on the message.
 
-### 2.14 What We Do NOT Collect
+### 2.14 Reports Sent With /suggest
+
+When you send a bug report, request or anything else with `/suggest`, we store what you wrote and any images you add, and send them to our issue tracker (Linear, see Section 4). Images are redrawn first, which removes location and camera data. The report goes with details that help us act on it: your Discord name and ID, the server name, when you joined the server and made your Discord account, whether you boost the server, your linked Riot account and rank, your Raven Score, your tournament record, current event and team, your clan, your Int Coins balance, how many reports you've sent before, and the Bot version. Honor scores, alternate accounts and join screening results are never included.
+
+### 2.15 What We Do NOT Collect
 
 - message content (other than the commands you run)
 - private/direct message content (the Bot DMs you, but does not read your DMs)
@@ -134,7 +138,7 @@ Services the Bot talks to, each under its own privacy policy:
 - **Payout services**: if you win a cash prize, the payment is sent through the service you chose (for example PayPal), under that service's own privacy policy.
 - **ip-api.com** ([privacy policy](https://ip-api.com/docs/legal)): server-side lookup of country and VPN/proxy indicators during web verification; only the IP is sent, never your Discord identity.
 - **Media server platforms** (Radarr/Sonarr/Jellyfin): operated by the bot operator; media requests are forwarded there.
-- **Linear** ([privacy policy](https://linear.app/privacy)): our issue tracker. The text of a suggestion you send with `/suggest` is copied there; your name and Discord ID are not.
+- **Linear** ([privacy policy](https://linear.app/privacy)): our issue tracker. Reports you send with `/suggest` are stored there with your name and the details listed in Section 2.14. Only staff can read them.
 
 ## 5. Storage and Security
 
@@ -152,7 +156,7 @@ You can request deletion at any time:
 2. Say whether you want everything deleted or specific data (for example just your Riot link).
 3. Deletion is completed within **30 days** and confirmed to you.
 
-Deletion covers your Discord ID associations, music history, economy and game data, Riot account link and derived scores, website sessions, and media request history. Records of prizes already paid may be kept where needed for tax or legal reasons. A minimal record may be retained where needed for security (for example ban evasion prevention) or legal compliance, and aggregate statistics that no longer identify you may be kept. Some features stop working after deletion (your balance and tournament eligibility are gone).
+Deletion covers your Discord ID associations, music history, economy and game data, Riot account link and derived scores, website sessions, media request history, and your details on reports sent with `/suggest`, including the copies in Linear. Records of prizes already paid may be kept where needed for tax or legal reasons. A minimal record may be retained where needed for security (for example ban evasion prevention) or legal compliance, and aggregate statistics that no longer identify you may be kept. Some features stop working after deletion (your balance and tournament eligibility are gone).
 
 ## 7. Your Rights
 
