@@ -26,7 +26,7 @@ By using Raven ("the Bot") you agree to these Terms of Service and to our [Priva
 - **Music**: streams audio from YouTube and similar platforms into voice channels.
 - **Int Coins economy**: a virtual currency earned through activity, with casino-style games, a shop, daily quests, Wordle, and rewards for inviting friends or bumping the server on Disboard.
 - **Games**: a roguelike dungeon (`/dungeon`), an endless journey game in open beta (`/journey`), trading-card packs and card battles, and clans with levels and shared activities.
-- **League of Legends tournaments**: automated 5v5 tournaments with skill-based team balancing, clan entry, brackets, prediction polls, livestreams, and a player-driven honor system, plus Looking For Group for finding players outside tournaments.
+- **League of Legends tournaments**: automated 5v5 tournaments with skill-based team balancing, clan entry, brackets, prediction polls, livestreams, and a player-driven reputation system, plus Looking For Group for finding players outside tournaments.
 - **Website**: pages at app.starling.gg where you sign in with Discord to run your clan, and where staff run tournaments and server settings.
 - **Media requests**: request movies and shows for the operator's private media server (restricted to authorized users).
 - **Server access and safety**: a new-member verification gate, an onboarding wizard, alt-account and bot screening, and moderation tools.
@@ -82,9 +82,9 @@ Tournaments use a double-elimination bracket. When more teams register than the 
 
 In tournaments where players sign up alone, the Bot forms the teams. To keep matches fair, the Bot estimates each player's skill from their linked League of Legends account (rank, match history, account level) and balances teams with it. Automated checks also look for accounts whose displayed rank likely understates their real skill ("smurfs"); such accounts may be seeded higher or routed to tournament staff for manual review. These estimates are automated and imperfect, are applied at staff discretion, and are not accusations of wrongdoing.
 
-### 4.4 Conduct and Honor
+### 4.4 Conduct and Reputation
 
-Play tournament matches on your own linked account, show up for your matches, and treat teammates and opponents decently. After matches, the Bot may ask participants to rate teammates and report misconduct; this feeds a reputation score that tournament staff use for seeding reviews, dispute decisions, and, in serious cases, exclusion from future tournaments. Deliberately abusing the honor or report system (false reports, vote brigading) is itself a violation. Once teams are made you can drop out of your team at any time; it goes on your record, and counts more heavily the closer the tournament is to starting. A team that loses three players to dropouts is disqualified. Before the start, how active you are in your team's channels counts toward your reputation, and a player who stays quiet for days may be replaced by a substitute. A team that answers the icebreaker and spends time together in team voice earns a small Int Coins bonus.
+Play tournament matches on your own linked account, show up for your matches, and treat teammates and opponents decently. After matches, the Bot may ask participants to rate teammates and report misconduct; this feeds a reputation score that tournament staff use for seeding reviews, dispute decisions, and, in serious cases, exclusion from future tournaments. Deliberately abusing the reputation or report system (false reports, vote brigading) is itself a violation. Once teams are made you can drop out of your team at any time; it goes on your record, and counts more heavily the closer the tournament is to starting. A team that loses three players to dropouts is disqualified. Before the start, how active you are in your team's channels counts toward your reputation, and a player who stays quiet for days may be replaced by a substitute. A team that answers the icebreaker and spends time together in team voice earns a small Int Coins bonus.
 
 ### 4.5 Disputes and Cancellation
 

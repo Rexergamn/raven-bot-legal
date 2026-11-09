@@ -1,6 +1,6 @@
 # Privacy Policy - Raven Discord Bot
 
-**Last Updated:** November 5, 2026
+**Last Updated:** November 8, 2026
 **Effective Date:** January 31, 2026
 
 ## The Short Version
@@ -39,7 +39,7 @@ Which invite link you joined through and who created it (used for invite rewards
 
 If you link a Riot account: your Riot ID, PUUID and summoner ID, region, account level, and current and historical rank. From these we derive and store an estimated skill rating (MMR) and its history over time, plus an automated smurf-likelihood score with the signals that produced it. Tournament participation is stored too: registrations, teams, match results, bracket placement, and prize records.
 
-**Honor and reports:** after tournament matches, other participants may rate your sportsmanship or file a misconduct report. Votes, reports, dropouts, and the reputation score derived from them are stored and visible to tournament staff.
+**Reputation and reports:** after tournament matches, other participants may rate your sportsmanship or file a misconduct report. Votes, reports, dropouts, and the reputation score derived from them are stored and visible to tournament staff. Your reputation tier, but not the score, can show on your profile and on stream, and clans can use it when deciding who joins.
 
 **Team channels:** while a tournament runs, the Bot counts how many messages you send in your team's text channel and how long you spend in its voice channel, never what you say. It also stores what you pick on the team panel: icebreaker answers, trivia guesses, and whether you're coming to a practice. Your activity feeds the reputation score, and tournament staff are told if you stay quiet for several days.
 
@@ -47,9 +47,9 @@ If you link a Riot account: your Riot ID, PUUID and summoner ID, region, account
 
 **Streams and recordings:** tournament matches may be livestreamed and recorded. During a streamed match, a broadcast app run by tournament staff reads the live game (picks, bans, and each player's in-game stats) from the League client on the broadcast computer and sends it to the Bot for the stream overlay. That app's IP address is logged for troubleshooting; it belongs to the staff member running the broadcast, never to players. Recordings and clips are stored on the operator's hardware and may be published (see the Terms of Service, Section 4.6).
 
-**Looking For Group:** the groups you host or join, the lobby link you share, which Riot account hosted, the role and tags you pick, the results and in-game stats of the games your group plays together (from Riot's match history), who you pick as your favourite teammate, and any reports you file or that are filed about you. Your picks are private; if two players pick each other, the group's thread is told. Your LFG activity can count toward your honor.
+**Looking For Group:** the groups you host or join, the lobby link you share, which Riot account hosted, the role and tags you pick, the results and in-game stats of the games your group plays together (from Riot's match history), who you pick as your favourite teammate, and any reports you file or that are filed about you. Your picks are private; if two players pick each other, the group's thread is told. Your LFG activity can count toward your reputation.
 
-**Avoid list:** the players you choose never to be put on a team with, and the reason you pick for each. Tournament staff can see these, and staff can add or remove one for you. The player you avoid is never told. If many players avoid the same person for conduct reasons, that person's honor score can drop.
+**Avoid list:** the players you choose never to be put on a team with, and the reason you pick for each. Tournament staff can see these, and staff can add or remove one for you. The player you avoid is never told. If many players avoid the same person for conduct reasons, that person's reputation score can drop.
 
 ### 2.6 Prizes
 
@@ -106,7 +106,7 @@ If the server sends you a feedback survey, we store the answers you submit, the 
 
 ### 2.14 Reports Sent With /suggest
 
-When you send a bug report, request or anything else with `/suggest`, we store what you wrote and any images you add, and send them to our issue tracker (Linear, see Section 4). Images are redrawn first, which removes location and camera data. The report goes with details that help us act on it: your Discord name and ID, the server name, when you joined the server and made your Discord account, whether you boost the server, your linked Riot account and rank, your Raven Score, your tournament record, current event and team, your clan, your Int Coins balance, how many reports you've sent before, and the Bot version. Honor scores, alternate accounts and join screening results are never included.
+When you send a bug report, request or anything else with `/suggest`, we store what you wrote and any images you add, and send them to our issue tracker (Linear, see Section 4). Images are redrawn first, which removes location and camera data. The report goes with details that help us act on it: your Discord name and ID, the server name, when you joined the server and made your Discord account, whether you boost the server, your linked Riot account and rank, your Raven Score, your tournament record, current event and team, your clan, your Int Coins balance, how many reports you've sent before, and the Bot version. Reputation scores, alternate accounts and join screening results are never included.
 
 ### 2.15 What We Do NOT Collect
 
